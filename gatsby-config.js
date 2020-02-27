@@ -25,7 +25,7 @@ module.exports = {
       resolve: `gatsby-theme-blog`,
       options: {
         // basePath defaults to `/`
-        basePath: `/blog`,
+        basePath: `/`,
       },
     },
     {
