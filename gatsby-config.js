@@ -9,6 +9,16 @@ module.exports = {
     title: `Multiple Themes`,
     description: `A tutorial for building a Gatsby site using multiple themes.`,
     author: `Your name`,
+    menuLinks: [
+      {
+        name: `Blog`,
+        url: `/`,
+      },
+      {
+        name: `Notes`,
+        url: `/notes`,
+      },
+    ],
     social: [
       {
         name: `twitter`,

@@ -5,6 +5,7 @@ import Switch from "gatsby-theme-blog/src/components/switch"
 import Bio from "gatsby-theme-blog/src/components/bio"
 import sun from "gatsby-theme-blog/assets/sun.png"
 import moon from "gatsby-theme-blog/assets/moon.png"
+import Navigation from "../../components/navigation"
 
 const rootPath = `${__PATH_PREFIX__}/`
 
@@ -95,36 +96,7 @@ export default ({ children, title, ...props }) => {
           pt: 4,
         })}
       >
-        <nav
-          css={css({
-            py: 2,
-            display: `flex`,
-          })}
-        >
-          <Styled.a
-            css={css({
-              fontFamily: `heading`,
-              fontWeight: `bold`,
-              textDecoration: `none`,
-              marginRight: 2,
-            })}
-            as={Link}
-            to="/"
-          >
-            Blog
-          </Styled.a>
-          <Styled.a
-            css={css({
-              fontFamily: `heading`,
-              fontWeight: `bold`,
-              textDecoration: `none`,
-            })}
-            as={Link}
-            to="/notes"
-          >
-            Notes
-          </Styled.a>
-        </nav>
+        <Navigation />
         <div
           css={css({
             display: `flex`,
