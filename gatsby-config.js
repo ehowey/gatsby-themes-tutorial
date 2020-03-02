@@ -45,5 +45,6 @@ module.exports = {
         basePath: `/notes`,
       },
     },
+    `@pauliescanlon/gatsby-mdx-embed`,
   ],
 }
